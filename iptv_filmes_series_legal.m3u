@@ -1,24 +1,59 @@
 #EXTM3U
 
-############ FILMES ############
+############################
+##### 📺 TV ABERTA #########
+############################
 
-#EXTINF:-1 tvg-name="Pluto TV Filmes Ação" group-title="Filmes",Pluto TV | Filmes Ação
+#EXTINF:-1 group-title="TV Aberta",TV Brasil
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+
+#EXTINF:-1 group-title="TV Aberta",TV Cultura
+https://streaming.cultura.com.br/hls/live.m3u8
+
+#EXTINF:-1 group-title="TV Aberta",Rede Vida
+https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV Aberta",Canal GOV
+https://canalgov-stream.ebc.com.br/index.m3u8
+
+
+############################
+##### 📰 NOTÍCIAS ##########
+############################
+
+#EXTINF:-1 group-title="Notícias",DW Brasil
+https://dwstream5-lh.akamaihd.net/i/dwstream5_live@124540/index_1_av-p.m3u8
+
+#EXTINF:-1 group-title="Notícias",France 24 (PT)
+https://static.france24.com/live/F24_PT_LO_HLS/live_web.m3u8
+
+
+############################
+##### 🎬 FILMES ############
+############################
+
+#EXTINF:-1 group-title="Filmes",Pluto TV | Filmes Ação
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3d06d938c900072679fd/master.m3u8
 
-#EXTINF:-1 tvg-name="Pluto TV Filmes Drama" group-title="Filmes",Pluto TV | Filmes Drama
+#EXTINF:-1 group-title="Filmes",Pluto TV | Filmes Drama
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3d8a3b4f2c00078e5e84/master.m3u8
 
-#EXTINF:-1 tvg-name="Rakuten TV Action" group-title="Filmes",Rakuten TV | Action
+#EXTINF:-1 group-title="Filmes",Rakuten TV | Action
 https://rakuten-action-rakuten.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 group-title="Filmes",Plex | Movies
+https://plex-movies-plex.amagi.tv/playlist.m3u8
 
-############ SÉRIES ############
 
-#EXTINF:-1 tvg-name="Pluto TV Séries" group-title="Séries",Pluto TV | Séries
+############################
+##### 📺 SÉRIES ############
+############################
+
+#EXTINF:-1 group-title="Séries",Pluto TV | Séries
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3d2db97f2b0007f7d6b4/master.m3u8
 
-#EXTINF:-1 tvg-name="Pluto TV Séries Retrô" group-title="Séries",Pluto TV | Séries Retrô
+#EXTINF:-1 group-title="Séries",Pluto TV | Séries Retrô
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d3dcdb97f2b0007f7d6d2/master.m3u8
 
-#EXTINF:-1 tvg-name="Plex Series" group-title="Séries",Plex | Series
+#EXTINF:-1 group-title="Séries",Plex | Series
 https://plex-series-plex.amagi.tv/playlist.m3u8
